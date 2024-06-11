@@ -4,7 +4,7 @@
 
     var botOptions = {};
     botOptions.logLevel = 'debug';
-    botOptions.koreAPIUrl = "https://bots.kore.ai/api/";
+    botOptions.koreAPIUrl = "https://jp-bots.kore.ai/api/";
     botOptions.koreSpeechAPIUrl = "";//deprecated
     //botOptions.bearer = "bearer xyz-------------------";
     //botOptions.ttsSocketUrl = '';//deprecated
@@ -70,7 +70,7 @@
             recognitionLanguage: 'en-US'
            }
         },
-        allowLocation: true,			// set false, to deny sending location to server
+        allowLocation: false,			// set false, to deny sending location to server
         loadHistory: true,				// set true to load recent chat history
         messageHistoryLimit: 10,		// set limit to load recent chat history
         autoEnableSpeechAndTTS: false, 	// set true, to use talkType voice keyboard.
